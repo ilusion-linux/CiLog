@@ -1,0 +1,22 @@
+CiLog
+Compilador e Interprete logico.
+
+En este texto econtraras una guia rapida de utilizacion, y un explicacion de la estructura de los directorios utilizados en CiLog.
+
+*Utilizacion:
+
+Estructuracion:
+	La estructura de los archivos es la siguiente:
+	
+	documentacion: 	Aqui encontrarar los diagramas en formato DIA y jpg de las estructuras logicas del programas.
+			Tambien la API generada con doxygen.
+	imagenes:	Encontraras el logo oficial de CiLog y otras imagenes de utilidad para documentacion y la API.
+			Aunque esta es la version nucleo, se incluye el logo oficial.
+	src:		Fuentes del programa compuesto por archivos .cpp y .h
+	src/sqlite:	Fuentes de SQLite.
+
+
+
+ww.zacapalug.com
+ilusion-linux
+ilusion.linux@gmail.com 

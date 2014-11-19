@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1415984392 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorLexico.cpp
+	"AnalizadorLexico.h"
+
+1416024652 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorLexico.h
+	<iostream>
+	<fstream>
+	"Configuracion.h"
+
+1415973011 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/BaseConocimiento.cpp
+	"BaseConocimiento.h"
+	<ncurses.h>
+
+1416023804 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/BaseConocimiento.h
+	<iostream>
+
+1416285356 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/CiLog.cpp
+	"CiLog.h"
+
+1416285248 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/CiLog.h
+	<iostream>
+	<ncurses.h>
+	"Util.h"
+	"BaseConocimiento.h"
+	"Analizador.h"
+	"MotorInferencia.h"
+
+1416263330 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Util.h
+	<iostream>
+	<ncurses.h>
+	"Configuracion.h"
+
+1416287006 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Configuracion.h
+	<iostream>
+	<ncurses.h>
+	<sqlite3.h>
+
+1416286631 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Configuracion.cpp
+	"Configuracion.h"
+
+1415849812 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Directorio.cpp
+	"Directorio.h"
+
+1416286299 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Directorio.h
+	<iostream>
+	<string>
+	<cstring>
+	<sys/stat.h>
+	<dirent.h>
+
+1416287020 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Util.cpp
+	"Util.h"
+
+1416018767 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/main.cpp
+	<cstring>
+	<ncurses.h>
+	"CiLog.h"
+
+1415990652 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Analizador.cpp
+	"Analizador.h"
+
+1416024281 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/Analizador.h
+	<iostream>
+	<ncurses.h>
+	"Directorio.h"
+	"Configuracion.h"
+	"BaseConocimiento.h"
+	"AnalizadorLexico.h"
+	"AnalizadorSintactico.h"
+	"AnalizadorSemantico.h"
+
+1416024833 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorSintactico.h
+	<iostream>
+	"Configuracion.h"
+
+1415892915 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorSintactico.cpp
+	"AnalizadorSintactico.h"
+
+1415916787 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorSemantico.cpp
+	"AnalizadorSemantico.h"
+
+1416024875 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/AnalizadorSemantico.h
+	<iostream>
+	"Configuracion.h"
+
+1416024986 /media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/MotorInferencia.h
+	<iostream>
+	<ncurses.h>
+	"BaseConocimiento.h"
+	"Analizador.h"
+	"Configuracion.h"
+	"Util.h"
+
+1416024021 source:/media/e2d6b2c3-50db-4a75-a02f-ab134e60b97e/Proyectos/CiLog/src/MotorInferencia.cpp
+	"MotorInferencia.h"
+

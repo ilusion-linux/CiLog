@@ -1,0 +1,33 @@
+CiLog
+Compilador e Interprete logico.
+
+Descripcion:
+	CiLog esta diseñado para poder crear Bases de Conocimiento y poder realizar consultar a esta base a traves de su motor de inferencia.
+
+	Asi que ademas de ser un compilador, ya que este compila la base de conocmiento, las reglas sobre el conocimiento y la sintaxis de la consultas realizas.  Tiene un modo de interprete donde recibe las consultas a la base de conocimiento e interpreta dischas consultas para mostrar el resultado obtenido.
+
+	Este es un software altamente configurable ya que no solo se puede configurar opciones de idioma, visualizacion y/o respuestas.  En el tambien puedes configurar las palabras reservadas a utilizar y asi poder utilizar la sintaxis con la que mas comodo te sientas, en base a la experiencia en algun lenguaje utilizado anteriormente.
+
+	CiLog busca competir ante titatnes como Prolog y CLIPS, aunque CiLog busca utilizar lo mejor de ambos, esta escrito desde cero.  Con una estructura de memoria para la base de conocimiento, basada en movientos de memoria, juto con otra estructura utilizada para la indexacion de los sujeto definidos hacia sus predicados.
+
+Datos Tecnicos:
+	CiLog esta desarrollado en el C++ buscando ser lo mas standard posible para poder funcionar en todas las plataformas posibles.  Utilizando estandares POSIX que garantiza la portabilidad en todos los sistemas UNIX, LINUX y que facilmente se puden portar a sistemas tipo WINDOWS.
+
+	Herramientas de desarrollo:
+		Geany:    IDE de desarrollo
+		g++:	  Compilador de C++
+		git:	  Controlador de versiones
+		doxygen:  Programa generador de documentacion al estilo API
+		DIA:      Desarrollo de diagramas
+		SQLite:   Base de datos con la configuracion y opciones disponiblesu
+		
+
+Observacion:
+	Esta es el nucleo de CiLog, por lo que funciona a traves de una shell, a traves de otras colaboraciones puede tener front-end, con mayores facilidades de uso, en la pagina zacapalug.com
+
+
+
+
+ww.zacapalug.com
+ilusion-linux
+ilusion.linux@gmail.com 

@@ -1,0 +1,25 @@
+#Universidad uMariano Galvez
+#Inteligencia Artificial
+#Ejemplo de definicion de base de conocimiento de CiLog
+
+estudiante(Luis Morales);
+estudiante(Douglas Cifuentes);
+estudiante(Juan Perez);
+
+catedratico(Alejandro Chinchilla);
+catedratico(Carlos Davila);
+catedratico(Estuardo Villatoro);
+
+materia(Inteligencia Artifcial);
+materia(Auditoria de Sistemas);
+materia(Compiladores);
+
+catedratico imparte(Estuardo Villatoro, Auditoria de Sistemas);
+
+asignacion estudiante(Luis Morales, Inteligencia Artificial);
+asignacion estudiante(Douglas Cifuentes, Inteligencia Artificial);
+asignacion estudiante(Luis Morales, Compiladores);
+asignacion estudiante(Douglas Cifuentes, Audtioria de Sistemas);
+
+#no_estudiante(X) : asignacion(X, Y), ! estudiante(Y);
+#no_estudiantes(X, Z) : asignacion(X, Y), ! estudiante(Y), Z=Y;
